@@ -1,0 +1,124 @@
+
+.App {
+  font-family: "Abitare Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 20px 0;
+  overflow-x: hidden; 
+}
+
+#icon {
+  font-size: 15px; 
+  margin-right: 8px; 
+  margin-left: 8px; 
+}
+
+
+.dropdown {
+  position: absolute;
+  color: #000000;
+  padding: 0;
+  margin-bottom: 10vh;
+}
+
+
+.dropdown-btn {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  margin: 10px -10vw 0 -97vw;
+}
+
+.dropdown-btn:hover {
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.dropdown-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 300px;
+  height: 75px;
+  min-width: 160px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  margin: 15px 0 0 -45vw;
+  z-index: 1;
+}
+
+.dropdown-content label,
+.dropdown-content select {
+  display: block;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+
+.sort {
+  margin-top: 5vh;
+}
+
+#sortBy,
+#grouping {
+  width: 100px;
+  height: 25px;
+  margin-top: -2vh;
+  margin-left: 10vw;
+  margin-right: -20vw;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  border-color: rgb(212, 212, 212);
+}
+
+.group-heading {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.group-icon {
+  margin-left: 18px;
+  margin-right: 5px;
+}
+
+.group-ticket-count {
+  margin-left: 18px;
+  font-weight: bold;
+  color: #888;
+}
+
+
+.kanban-board {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-grow: 1;
+  gap: 15px;
+  overflow-x: auto; 
+  margin-top: 65px;
+  padding: 0 20px;
+  width: 100%; 
+}
+
+
+.column {
+  flex: 1;
+  padding: 0 15px;
+}
+
+.group-heading {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
