@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  min-height: 100vh;
+  min-height: 95.5vh;
   padding: 20px 0;
   overflow-x: hidden; 
 }
@@ -54,7 +54,7 @@
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  margin: 15px 0 0 -45vw;
+  margin: 15px 0 0 -46vw;
   z-index: 1;
 }
 
@@ -67,16 +67,16 @@
 
 
 .sort {
-  margin-top: 5vh;
+  margin-top: 45px;
 }
 
 #sortBy,
 #grouping {
   width: 100px;
   height: 25px;
-  margin-top: -2vh;
-  margin-left: 10vw;
-  margin-right: -20vw;
+  margin-top: -20px;
+  margin-left: 165px;
+  margin-right: -161px;
   color: rgb(0, 0, 0);
   border-radius: 5px;
   border-color: rgb(212, 212, 212);
@@ -121,4 +121,12 @@
 .group-heading {
   font-size: 1.2rem;
   margin-bottom: 10px;
+}
+
+@media(max-width:768px){
+  #sortBy{
+  position: fixed;
+  margin-top: 40px;
+}
+
 }
