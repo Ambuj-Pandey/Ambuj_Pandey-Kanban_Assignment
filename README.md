@@ -1,13 +1,16 @@
 ## react-kanban Assignment
 
 ### 🔴Display state: 
-![1](https://github.com/Ambuj-Pandey/https---github.com-Ambuj-Pandey-Kanban_Assignment/assets/78492933/aeb5d4cc-7b7c-4b23-b04d-6ebb63ca1502)
+![1](https://github.com/Ambuj-Pandey/Ambuj_Pandey-Kanban_Assignment/assets/78492933/8720aece-1809-433e-9d85-ad64241c6f20)
+
 
 ### 🔴State based on display. - Grouping by user is selected.
-![2](https://github.com/Ambuj-Pandey/https---github.com-Ambuj-Pandey-Kanban_Assignment/assets/78492933/bfbdb1b5-9522-426c-8bc8-1dfb05662a13)
+![2](https://github.com/Ambuj-Pandey/Ambuj_Pandey-Kanban_Assignment/assets/78492933/8c35a71b-b80e-42c6-9813-aceadd826469)
+
 
 ### 🔴Grouping by priority is selected.
-![3](https://github.com/Ambuj-Pandey/https---github.com-Ambuj-Pandey-Kanban_Assignment/assets/78492933/edc7500e-e1ca-418d-8dcf-820760cc8565)
+![3](https://github.com/Ambuj-Pandey/Ambuj_Pandey-Kanban_Assignment/assets/78492933/ac88f489-0bcd-4e30-9414-fc00af311e62)
+
 
 The application offers three distinct ways to group the data:
 
